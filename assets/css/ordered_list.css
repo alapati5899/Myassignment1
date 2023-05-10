@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+}
+
+::marker {
+	font-weight: 600;
+	color: #3c7548;
+	font-size: 1.8rem;
+}
+
+.container {
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.2rem;
+	margin: 0;
+	padding: 1rem;
+	display: grid;
+}
+ol {
+	padding: 0;
+	margin: 0;
+	max-width: 1400px;
+    margin-left: 20px;
+	position: relative;
+	display: grid;
+}
+
+.container li {
+	border-radius: 1.5rem;
+	background: #b8b3c9;
+	padding: 0.5rem 1.5rem 1rem;
+	margin-top: 10px;
+}

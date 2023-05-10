@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>My Blog</title>
+	<link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+</head>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>  
+        <li><a href="hobbies.html">My Hobbies</a></li>
+        <li><a href="hometown.html">Home Town</a></li>
+    </ul>
+    <style>
+      body {
+        background-image: url('https://e0.pxfuel.com/wallpapers/73/728/desktop-wallpaper-light-gray-background.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+  </style>
+
+    <div style="margin-block-start: 30px;">
+        <p id="imageText">HI, PLEASE VERIFY THAT YOU ARE A HUMAN :) </p>
+          <img id="image" src="download.jpg" alt="GFG image" />
+      </div>
+        <button id="one" onclick="return onClickButton1()">I'M NOT A ROBOT</button>
+      </div>
+
+    <form style="margin-block-start: 30px;">
+        <input type="text" id="input" placeholder="enter email"  required>
+        <button type="submit" onclick="return validate()">Validate</button>
+        <p id="errorText" style="display:none; color:red;">Incorrect Email,try again.</p>
+      </form>
+      <form style="margin-block-start: 30px;">
+        <input type="text" id="input1" placeholder="enter phone"  required>
+        <button type="submit" onclick="return validatePhone()">Validate</button>
+        <p id="errorNumberText" style="display:none; color:red;">Incorrect Phone,try again.</p>
+      </form>
+        <h2>About this website</h2>
+        <button class="accordion-title">About Myself</button>
+        <div class="accordion-content">
+          <p>hi myself lokesh, with unique individual with own strengths, weaknesses, and personality traits that make me who i am.</p>
+        </div>    
+        <button class="accordion-title">My Hobbies</button>
+        <div class="accordion-content">
+          <p>my hobbies of playing cricket, surfing the internet, and watching Netflix thrillers are diverse and showcase varied interests.I enjoy the thrill of a fast-paced cricket match, the endless possibilities of the internet, and the excitement of a gripping thriller. my hobbies allow me to relax and unwind while indulging in my passions.</p>
+        </div>
+        
+        <button class="accordion-title">My Home Town</button>
+        <div class="accordion-content">
+          <p>Visakhapatnam, commonly known as Vizag, is a coastal city located in the southeastern state of Andhra Pradesh, India. It is home to a bustling seaport, beautiful beaches, and scenic hill ranges. With a rich history and diverse culture, Vizag is a popular tourist destination and a hub for industry and education.</p>
+        </div>
+</body>
+<script src="assets/js/index.js"></script>
+<script>
+    onLoad();
+</script>
+</html>
